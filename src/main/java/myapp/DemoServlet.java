@@ -8,6 +8,6 @@ public class DemoServlet extends HttpServlet {
     public void doGet(HttpServletRequest req, HttpServletResponse resp)
             throws IOException {
         resp.setContentType("text/plain");
-        resp.getWriter().println("{ \"name\": \”This project is in progress\” }");
+        resp.getWriter().println("{ \"name\": \"This project is in progress\" }");
     }
 }
